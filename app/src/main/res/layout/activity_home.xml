@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+android:background="@drawable/fghjk"    >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hoşgeldiniz"
+            android:id="@+id/hastaAd"
+            android:textSize="50sp"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bluetooth Liste"
+            android:id="@+id/btnBluetooth"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/btn_circle"
+
+            />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_horizontal">
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kaydet"
+        android:id="@+id/btnKaydet"
+        android:background="@drawable/btn_circle"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Analiz"
+        android:id="@+id/btnAnaliz"
+        android:background="@drawable/btn_circle"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp">
+        <Button
+            android:background="@drawable/btn_circle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eski Kayıt"
+            android:id="@+id/btnEskiKayit"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doktor Yorumu"
+            android:id="@+id/btnDanisma"
+            android:background="@drawable/btn_circle"/>
+    </LinearLayout>
+
+</LinearLayout>

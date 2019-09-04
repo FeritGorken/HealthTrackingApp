@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/fghjk"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kayıt"
+        android:textSize="30sp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtAd"
+            android:text="Ad"
+            android:textSize="15sp"/>
+
+        <EditText
+            android:id="@+id/etAd"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:hint="ad"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtSoyad"
+            android:text="Soyad"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/etSoyad"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:hint="soyad"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtEmail"
+            android:text="Email"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/etEmail"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="55dp"
+            android:hint="email"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPassword"
+            android:text="Parola"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:hint="parola"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtCinsiyet"
+            android:text="Cinsiyet"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/etCinsiyet"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:hint="Cinsiyet"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtKilo"
+            android:text="Kilo"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/etKilo"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="68dp"
+            android:hint="Kilo"
+            android:textSize="20sp" />
+    </LinearLayout>
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtBoy"
+        android:text="Boy"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/etBoy"
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="68dp"
+        android:hint="Boy"
+        android:textSize="20sp" />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnKayit"
+            android:text="Kayıt Olun"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:background="@drawable/btn_circle"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

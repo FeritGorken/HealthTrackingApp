@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fghjk">
+
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sağlık Takip Sistemi"
+        android:textSize="30sp"
+        />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtEmail"
+            android:text="E-Mail Adresinizi Giriniz:"
+            android:layout_marginTop="20dp"
+            android:textSize="15sp"/>
+        <EditText
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/etEmail"
+            android:layout_marginTop="20dp"
+            android:hint="email"
+            android:textSize="20sp"
+            android:text="test@gmail.com"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtPassword"
+            android:text="Parola Giriniz:"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"/>
+
+        <EditText
+            android:id="@+id/etPassword"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="48dp"
+            android:layout_marginTop="20dp"
+            android:hint="password"
+            android:textSize="20sp"
+            android:text="1235"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp">
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdGroup"
+            android:orientation="horizontal">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hasta"
+                android:id="@+id/rdHasta"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Doktor"
+                android:id="@+id/rdDoktor"/>
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnGiris"
+            android:text="Giriş Yapın"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:background="@drawable/btn_circle"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/btnKayit"
+            android:text="Kayıt Olun"
+            android:layout_marginTop="20dp"
+            android:textSize="18sp"
+            android:background="@drawable/btn_circle"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>
